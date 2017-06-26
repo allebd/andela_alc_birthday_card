@@ -13,15 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="center"
-        app:srcCompat="@drawable/androidparty" />
+        app:srcCompat="@drawable/images" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:padding="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="46sp"
+        android:textAlignment="center"
         android:text="Happy Birthday Sue!"/>
 
     <TextView
@@ -31,9 +33,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:fontFamily="sans-serif-light"
-        android:padding="20dp"
+        android:padding="15dp"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="26sp"
         android:text="From, Alleb_D"/>
 
 </RelativeLayout>
